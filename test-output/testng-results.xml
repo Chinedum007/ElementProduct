@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LogOut from page]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-02T14:52:50 BST" name="Default suite" finished-at="2024-05-02T14:53:01 BST" duration-ms="11365">
+    <groups>
+    </groups>
+    <test started-at="2024-05-02T14:52:50 BST" name="Default test" finished-at="2024-05-02T14:53:01 BST" duration-ms="11365">
+      <class name="scripts.TC001">
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:scripts.TC001@31368b99]" started-at="2024-05-02T14:52:50 BST" name="openApp" finished-at="2024-05-02T14:52:51 BST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://test.bws-web/BookWiseEducationV7/Account/LogOn?ReturnUrl=%2fBookWiseEducationV7%2fintranet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="loginToApp(java.lang.String,java.lang.String)[pri:0, instance:scripts.TC001@31368b99]" started-at="2024-05-02T14:52:51 BST" name="loginToApp" finished-at="2024-05-02T14:52:54 BST" duration-ms="2248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testProductLoginAndLogOut()[pri:0, instance:scripts.TC001@31368b99]" started-at="2024-05-02T14:52:54 BST" name="testProductLoginAndLogOut" description="To Verify Admin is able to login with right credntials" finished-at="2024-05-02T14:52:54 BST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductLoginAndLogOut -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:scripts.TC001@31368b99]" started-at="2024-05-02T14:52:54 BST" name="logout" finished-at="2024-05-02T14:53:01 BST" duration-ms="7461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductLoginAndLogOut status=SUCCESS method=TC001.testProductLoginAndLogOut()[pri:0, instance:scripts.TC001@31368b99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LogOut from page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:scripts.TC001@31368b99]" started-at="2024-05-02T14:53:01 BST" name="closeApp" finished-at="2024-05-02T14:53:01 BST" duration-ms="225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- scripts.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 27 16:07:10 BST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>69 seconds (69716 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.TC002.CreateABooking()'><b>CreateABooking</b><br>Test class: scripts.TC002<br>Test method: As a User I want to be able to make a booking<br/>
+<a href="#Output-424732838" onClick='toggleBox("Output-424732838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424732838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424732838">
+Login, navigate to calendar and select new booking<br/>
+Enter booking Start time (19:00) and Finish time (19:15)<br/>
+Enter booking title(Automation Test) and number of delegate(1) <br/>
+Click on Contact Avatar to open<br/>
+Enter first name and last name in the search text box then click search btn<br/>
+Double click to select contact<br/>
+Open invoice, add invoice address and save<br/>
+Open costs, enter Room cost (£10:00),Equipment cost (£5:00) and save<br/>
+Open catering, add catering item and save <br/>
+Open Sponsors, add details, costs, save and then close <br/>
+Select education centre under department and interview under category <br/>
+Tick No Equipment Required <br/>
+Save and then logout <br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>scripts.TC002@3d74bf60</td></tr>
+<tr>
+<td title='scripts.TC003.dEleteBooking()'><b>dEleteBooking</b><br>Test class: scripts.TC003<br>Test method: As a user I want to be able to delete a booking<br/>
+<a href="#Output-1904720585" onClick='toggleBox("Output-1904720585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1904720585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1904720585">
+Click on search to enter page<br/>
+Enter booking title name in the search box<br/>
+Click on search btn to search for booking<br/>
+Double click to select booking<br/>
+Click delete btn to delete booking<br/>
+Click Yes to confirm booking delete<br/>
+Once booking is deleted logout and close browser<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>scripts.TC003@27ce24aa</td></tr>
+</table><p>
+</body>
+</html>
